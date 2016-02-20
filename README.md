@@ -14,6 +14,8 @@ Because, for lessons related project we have to use git and everybody are not fa
 This script is intended to be launched in a cron only once a day (or less). In the following example, the task is done every day at midnigth (you should use `crontab -e` if you don't want this to happend at midnight...)
 
 ```
+pip install instapush
+
 chmod +x cloning-repo.py
 sudo mv cloning-repo.py /usr/local/bin/cloning-repo
 sudo mv cron-task /etc/cron.daily/cloning.repo
