@@ -1,0 +1,3 @@
+#! /usr/bin/env bash
+
+cloning-repo my-remote-repo-I-want-to-backup my-local-folder-to-store-backup
