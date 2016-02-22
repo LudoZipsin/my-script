@@ -11,7 +11,7 @@ Because, for lessons related project we have to use git and everybody are not fa
 
 ## how to
 
-This script is intended to be launched in a cron only once a day (or less). In the following example, the task is done every day at midnigth (you should use `crontab -e` if you don't want this to happend at midnight...)
+This script is intended to be launched in a cron only once a day (or less). In the following example, the task is done every day (you should use `crontab -e` if you don't want this to happend at your system default time... use `grep run-parts /etc/crontab` to get the 'daily' time)
 
 ```
 pip install instapush
