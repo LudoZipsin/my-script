@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+ROOT_UID=0
+
 if [ "$UID" -ne "$ROOT_UID" ];
 	then
 	echo ""
