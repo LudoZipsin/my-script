@@ -2,6 +2,10 @@
 
 ROOT_UID=0
 
+# ensure that this script is launched from the right dir
+cd `dirname "$0"`
+DIR=$(pwd)
+
 if [ "$UID" -ne "$ROOT_UID" ];
 	then
 	echo ""
@@ -11,8 +15,8 @@ if [ "$UID" -ne "$ROOT_UID" ];
 	exit
 fi
 
-for i in `ls .`; do
+for i in `ls $DIR`; do
     if [ -d $i ]; then
-        ./$i/install.sh
+        $DIR/$i/install.sh
     fi
 done
