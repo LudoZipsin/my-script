@@ -7,7 +7,6 @@ import os
 import shutil
 import datetime
 
-from git import Repo
 from instapush import Instapush, App
 
 def print_script_call():
