@@ -1,6 +1,6 @@
 # inotifyrun
 
-This is a really usefull script I used a lot. However, it is not from me, I found it on [https://exyr.org/2011/inotify-run/](exyr.org). 
+This is a really usefull script I used a lot. However, it is not from me, I found it on [exyr.org](https://exyr.org/2011/inotify-run/). 
 
 It will check the file within the current directory (maybe I'll modify it later in order to use it on specific files rather than on the entire current directory).
 
