@@ -6,8 +6,7 @@ ROOT_UID=0
 cd `dirname "$0"`
 DIR=$(pwd)
 
-if [ "$UID" -ne "$ROOT_UID" ];
-	then
+if [ "$UID" -ne "$ROOT_UID" ]; then
 	echo ""
 	echo "Need to be root to launch this script. Please insert your root password below (nothing on screen):"
 	echo ""
